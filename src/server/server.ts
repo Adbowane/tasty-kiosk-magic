@@ -1,6 +1,6 @@
-import express from 'express';
-import cors from 'cors';
-import pool from './db';
+const express = require('express');
+const cors = require('cors');
+const pool = require('./db').default;
 
 const app = express();
 const port = 3001;
